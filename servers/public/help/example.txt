@@ -1,0 +1,27 @@
+|-- api
+    |-- controllers
+    |   |-- userController.js
+    |   |-- productController.js
+    |
+    |-- interceptors
+    |   |-- authenticationInterceptor.js
+    |   |-- authorizationInterceptor.js
+    |
+    |-- routes
+    |   |-- userRoutes.js
+    |   |-- productRoutes.js
+    |
+    |-- utils
+    |   |-- logger.js
+    |   |-- performanceOptimizer.js
+    |
+    |-- app.js
+    |-- config.js
+    |-- README.md
+    |
+    |-- Incoming Request
+        |-- [POST] /api/users
+            |-- authenticationInterceptor.js
+            |-- authorizationInterceptor.js
+            |-- userRoutes.js
+                |-- userController.js
